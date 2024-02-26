@@ -1,0 +1,9 @@
+name: {{ cookiecutter.repo_name }}
+channels:
+  - conda-forge
+  - anaconda
+  - plotly
+  - defaults
+dependencies:
+  - python>=3.10
+  - pip:
