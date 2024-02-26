@@ -1,5 +1,7 @@
 # Cookiecutter Python data science
 
+Other [cookiecutters](../README.md) in this repository.
+
 ## Usage
 
 1. Install cookiecutter - find instructions [here](https://cookiecutter.readthedocs.io/en/2.5.0/installation.html#install-cookiecutter)
