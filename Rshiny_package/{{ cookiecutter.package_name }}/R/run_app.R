@@ -1,6 +1,13 @@
 #' Run {{cookiecutter.project_name}} shiny app
 #'
-#' Runs a shiny app that displays a map. The user has to provide the correct answer for the item shown on the map.
+#'
+#' This is a Shiny web application. You can run the application by clicking
+#' the 'Run App' button above.
+#'
+#' Find out more about building applications with Shiny here:
+#'
+#'   https://shiny.posit.co/
+#'
 #'
 #' @param ... Other parameters to be passed on to shinyApp
 #'
@@ -10,15 +17,6 @@
 #'
 #' @export
 #'
-#' #
-# This is a Shiny web application. You can run the application by clicking
-# the 'Run App' button above.
-#
-# Find out more about building applications with Shiny here:
-#
-#    https://shiny.posit.co/
-#
-
 run_app <- function(...) {
 
   # data folder with the topography datasets
