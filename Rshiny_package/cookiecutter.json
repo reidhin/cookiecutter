@@ -1,0 +1,10 @@
+{
+    "project_name": "project_name",
+    "package_name": "{{ cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_') }}",
+    "author_name": "Your name (or your organization/company/team)",
+    "github_name": "Your Github name",
+    "email": "Your email",
+    "description": "A short description of the project.",
+    "version": "0.0.1",
+    "open_source_license": ["MIT", "BSD-3-Clause", "Creativecommons by-nc-sa","No license file"]
+}

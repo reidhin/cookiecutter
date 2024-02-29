@@ -1,0 +1,14 @@
+Package: {{cookiecutter.package_name}}
+Type: Package
+Title: {{cookiecutter.project_name}}
+Version: {{cookiecutter.version}}
+Author: {{cookiecutter.autor_name}}
+Maintainer: {{cookiecutter.autor_name}} <{{cookiecutter.email}}>
+Description: {{cookiecutter.description}}
+License: {{cookiecutter.open_source_license}}
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.2.2
+Imports: 
+    pkgload,
+    shiny

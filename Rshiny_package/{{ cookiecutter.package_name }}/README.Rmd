@@ -1,0 +1,70 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
+# {{cookiecutter.project_name}}
+
+<!-- badges: start -->
+<!-- badges: end -->
+
+This R-package contains an app about {{cookiecutter.project_name}}.
+
+{{cookiecutter.description}}
+
+
+## Installation
+
+If you would like to run the app locally on your PC, you can install the {{cookiecutter.packagename}} package as
+
+``` r
+require("devtools")
+devtools::install_github("{{cookiecutter.github_name}}/{{cookiecutter.package_name}}")
+```
+
+## Example
+
+After installion you can start the app in this package as follows:
+
+```{r example, eval=FALSE}
+library({{ cookiecutter.package_name }})
+run_app()
+```
+
+## Project organisatie
+
+```
+├── app.R                               <- Script to start the app properly on shinyapps.io
+├── data-raw                            <- Scripts create the datasets
+├── DESCRIPTION                         <- Project description
+├── inst
+│   ├── dashboard
+│   │   ├── data                        <- Folder containing the datasets for the dashboard or app
+│   │   └── www                         <- Folder with style-files, javascript and favicon
+│   └── extdata                         <- Folder extra data to be included in the package
+├── LICENSE.md                          <- License
+├── man                                 <- Help-files with explanation on the available functions
+│   └── run_app.Rd
+├── NAMESPACE
+├── NEWS.md                             <- File containing news on the package such as new features in the latest version
+├── R                                
+│   └── run_app.R                       <- Main function that starts the app
+├── README.md
+├── README.Rmd                          <- README with explanation and description of the project
+└── {{cookiecutter.package_name}}.Rproj
+```
+
+--------
+
+<p><small>Project based on the <a target="_blank" href="https://github.com/reidhin/cookiecutter/tree/main/Rshiny_package">cookiecutter R-shiny package template</a></small></p>
+
