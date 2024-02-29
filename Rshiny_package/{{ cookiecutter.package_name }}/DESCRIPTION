@@ -2,8 +2,8 @@ Package: {{cookiecutter.package_name}}
 Type: Package
 Title: {{cookiecutter.project_name}}
 Version: {{cookiecutter.version}}
-Author: {{cookiecutter.autor_name}}
-Maintainer: {{cookiecutter.autor_name}} <{{cookiecutter.email}}>
+Author: {{cookiecutter.author_name}}
+Maintainer: {{cookiecutter.author_name}} <{{cookiecutter.email}}>
 Description: {{cookiecutter.description}}
 License: {{cookiecutter.open_source_license}}
 Encoding: UTF-8
