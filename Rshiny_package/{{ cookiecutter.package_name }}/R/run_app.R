@@ -19,12 +19,6 @@
 #'
 run_app <- function(...) {
 
-  # data folder with the topography datasets
-  data_folder <- system.file("dashboard", "data", package="topografie")
-
-  # load dataset options
-  datasets <- readRDS(file.path(data_folder, "contents.rds"))
-
   # find the www map
   www <- system.file("dashboard", "www", package="{{cookiecutter.package_name}}")
   addResourcePath("www", system.file(file.path("dashboard", "www"), package="{{cookiecutter.package_name}}"))

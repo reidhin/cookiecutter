@@ -1,6 +1,6 @@
 {
     "project_name": "project_name",
-    "package_name": "{{ cookiecutter.project_name.lower().replace(' ', '.').replace('-', '.') }}",
+    "package_name": "{{ cookiecutter.project_name.lower().replace(' ', '.').replace('-', '.').replace('_', '.') }}",
     "author_name": "Your name (or your organization/company/team)",
     "github_name": "Your Github name",
     "email": "Your email",
