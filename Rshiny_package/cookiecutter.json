@@ -5,6 +5,5 @@
     "github_name": "Your Github name",
     "email": "Your email",
     "description": "A short description of the project.",
-    "version": "0.0.1",
-    "open_source_license": ["MIT", "BSD-3-Clause", "CC-BY-SA-4.0","No license file"]
+    "version": "0.0.1"
 }
