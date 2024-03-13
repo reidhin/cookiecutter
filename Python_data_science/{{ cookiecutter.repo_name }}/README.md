@@ -7,7 +7,7 @@
 
 ### 1.1 Setting up your Python environment
  
-The steps below describe how to set up your environment for Churn experiment.
+The steps below describe how to set up your environment for {{cookiecutter.project_name}} experiment.
 For this we assume you have a terminal open and have it pointed at the root of this project.
 
 1. Install the conda environment: `conda env create -f environment.yml`
@@ -18,7 +18,7 @@ Note that for this step you need node installed, either on your system itself, o
    
 ### 1.2 Setting up your IDE
 This part is set up under the assumption that PyCharm will be used.
-1. Set up the PurpleHRM interpreter (`{{cookiecutter.repo_name}}`) when opening this project in PyCharm. 
+1. Set up the interpreter (`{{cookiecutter.repo_name}}`) when opening this project in PyCharm. 
 2. Set up Black. Black is a code formatter with quite strict opinions. While not all the choices it
  makes are optimal, it does make sure that the code everyone commits is exactly the same.
  [This](https://black.readthedocs.io/en/stable/editor_integration.html#pycharm-intellij-idea) shows
